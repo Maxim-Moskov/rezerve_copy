@@ -8,8 +8,8 @@ rsync -avc --delete --exclude='.*/' ~/ /tmp/backup/
 
 ### Задание 2.
 
-'''
-#!/bin/bash
+
+'''#!/bin/bash
 
 SOURCE="$HOME/"
 DEST="/tmp/backup/"
@@ -20,8 +20,7 @@ if rsync -ac --delete --exclude='.*/' "$SOURCE" "$DEST"; then
     logger "Резервное копирование $SOURCE в $DEST завершено УСПЕШНО."
 else
     logger "ОШИБКА резервного копирования $SOURCE в $DEST."
-fi
-'''
+fi'''
 
 ![Скриншот Задания 1](img/task_2_log.png)
 
