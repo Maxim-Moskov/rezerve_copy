@@ -8,8 +8,8 @@ rsync -avc --delete --exclude='.*/' ~/ /tmp/backup/
 
 ### Задание 2.
 
-
-'''#!/bin/bash
+'''
+#!/bin/bash
 
 SOURCE="$HOME/"
 DEST="/tmp/backup/"
@@ -25,4 +25,4 @@ fi
 
 ![Скриншот Задания 1](img/task_2_log.png)
 
-![Скриншот Задания 1](img/task_1_cron.png)
+![Скриншот Задания 1](img/task_2_cron.png)
